@@ -2,7 +2,7 @@
 module.exports = {
   chainWebpack: config => {
     config.plugin('html').tap(args => {
-      args[0].title = 'Tokoin Wallet'
+      args[0].title = 'Simple Org Chart'
       return args
     })
   }
